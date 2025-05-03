@@ -1,0 +1,29 @@
+{
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit",
+      "source.organizeImports": "always"
+    },
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "eslint.format.enable": true,
+    "javascript.format.enable": false,
+    "json.format.enable": false,
+    "typescript.format.enable": false,
+    "typescript.suggestionActions.enabled": true,
+    "typescript.tsdk": "./node_modules/eslint-import-resolver-typescript/lib",
+    "[html]": {
+      "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    },
+    "[css]": {
+      "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    },
+    "[typescriptreact]": {
+      "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    },
+    "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "files.associations": {
+      "*.css": "tailwindcss"
+    }
+  }
