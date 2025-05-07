@@ -9,14 +9,7 @@ const compat = new FlatCompat({
 
 const eslintConfig = [
     ...compat.config({
-        ignorePatterns: [
-            'eslint.config.mjs',
-            'next.config.mjs',
-            'postcss.config.mjs',
-            'tailwind.config.ts',
-            'out/',
-            'node_modules/'
-        ],
+        ignorePatterns: ['eslint.config.mjs', 'next.config.mjs', 'postcss.config.mjs', 'tailwind.config.ts', 'out/', 'node_modules/'],
         env: {
             browser: true,
             es2021: true
