@@ -24,6 +24,7 @@ export default function PartnersGrid() {
     return (
         <section className="w-full py-[50px] bg-white">
             <div className="max-w-7xl mx-auto">
+                {/*  */}
                 <h2 className="text-4xl font-bold text-center text-gray-900 mb-12">Our Partners</h2>
                 <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-3 gap-8 items-center">
                     {partners.map((partner) => (
